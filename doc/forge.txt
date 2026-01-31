@@ -1,0 +1,19 @@
+*forge.txt*   Plugin documentation for forge.nvim
+
+INTRODUCTION                            *forge-intro*
+
+forge.nvim provides commands to run Foundry:
+:Forge, :Cast, :Chisel, :Anvil
+
+COMMANDS                                *forge-commands*
+
+:Forge [args]      Run forge commands
+:Cast [args]       Run cast commands
+:Chisel [args]     Run chisel scripts
+:Anvil             Persistent terminal for Anvil
+
+CONFIG                                   *forge-config*
+
+require("forge").setup({
+  allow_standalone = true
+})
