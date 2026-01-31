@@ -13,16 +13,14 @@ A minimal Neovim plugin to run Foundry commands. Supports `Forge`, `Cast`, `Chis
 ## Installation
 
 ```lua
--- ~/.config/nvim/lua/plugins.lua
+-- ~/.config/nvim/lua/forge.lua
 return {
-  {
-    "mmsaki/forge.nvim",
-    config = function()
-      require("forge").setup({
-        allow_standalone = false, -- optional
-      })
-    end,
-  },
+  "mmsaki/forge.nvim",
+  config = function()
+    require("forge").setup({
+      allow_standalone = false, -- optional
+    })
+  end,
 }
 ```
 
