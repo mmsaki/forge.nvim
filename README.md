@@ -2,6 +2,8 @@
 
 A minimal Neovim plugin to run Foundry commands. Supports `Forge`, `Cast`, `Chisel`, and a persistent `Anvil` terminal.
 
+[Demo](./forge.nvim.mp4)
+
 ## Features
 
 * Opens Foundry commands in a **top-half split terminal**.
