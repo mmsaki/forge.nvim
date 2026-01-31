@@ -28,7 +28,7 @@ return {
 
 | Command             | Description                                | Buffer Persistence                 |
 | ------------------- | ------------------------------------------ | ---------------------------------- |
-| `:Forge <args...>`  | Run `forge` commands (e.g., `:Forge test`) | Wipe on close                      |
+| `:Forge <args...>`  | Run commands (e.g., `:Forge test`) | Wipe on close                      |
 | `:Cast <args...>`   | Run `cast` commands                        | Wipe on close                      |
 | `:Chisel <args...>` | Run `chisel` commands                      | Wipe on close                      |
 | `:Anvil`            | Start a persistent `anvil` terminal        | Persistent, reused if already open |
