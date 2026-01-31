@@ -2,10 +2,7 @@
 
 A minimal Neovim plugin to run Foundry commands. Supports `Forge`, `Cast`, `Chisel`, and a persistent `Anvil` terminal.
 
-<video width="640" controls>
-  <source src="./forge.nvim.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<https://github.com/user-attachments/assets/98bcf9ac-99e9-44f3-8787-51467ef2a7a7>
 
 ## Features
 
